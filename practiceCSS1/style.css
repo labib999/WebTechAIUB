@@ -1,0 +1,29 @@
+header
+{
+    width: 600px;
+    margin : auto;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+section
+{
+    width : 600px;
+    margin: 20px auto;;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+img
+{
+    width: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+fieldset
+{
+    border-color: #333;
+    border-width: 2px;
+}
