@@ -1,0 +1,20 @@
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.mobile, .laptop, .headphone, .smartwatch, .tablet
+{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.product-row
+{
+    background-color: #cc3232;
+}
+
+.product-row:hover
+{
+    background-color: #eca6a6;
+}

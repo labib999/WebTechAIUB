@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grid Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calculator">
+
+    <div id="display">0</div>
+
+    <div class="buttons">
+
+        <div class="btn" onclick="press('7')">7</div>
+        <div class="btn" onclick="press('8')">8</div>
+        <div class="btn" onclick="press('9')">9</div>
+        <div class="btn operator" onclick="press('/')">/</div>
+
+        <div class="btn" onclick="press('4')">4</div>
+        <div class="btn" onclick="press('5')">5</div>
+        <div class="btn" onclick="press('6')">6</div>
+        <div class="btn operator" onclick="press('*')">*</div>
+
+        <div class="btn" onclick="press('1')">1</div>
+        <div class="btn" onclick="press('2')">2</div>
+        <div class="btn" onclick="press('3')">3</div>
+        <div class="btn operator" onclick="press('-')">-</div>
+
+        <div class="btn" onclick="press('0')">0</div>
+        <div class="btn" onclick="clearDisplay()">C</div>
+        <div class="btn equal" onclick="calculate()">=</div>
+        <div class="btn operator" onclick="press('+')">+</div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

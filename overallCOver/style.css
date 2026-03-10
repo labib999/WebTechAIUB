@@ -1,0 +1,123 @@
+body
+{
+    margin:0;
+    padding : 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header
+{
+    text-align:center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+}
+.home ul
+{
+    list-style-type: none;
+    background-color: rgb(168, 221, 44);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.home ul li
+{
+    display: inline-block;
+    
+}   
+.home ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display:block;
+    text-align: center;
+    padding: 16px 14px;
+}
+.home ul li a:hover
+{
+    color:aliceblue;
+}
+.profile
+{
+    padding : 20px;
+    margin-top:40px;
+    width:1000px;
+    border-color: black;
+    border-width:1px;
+    border-style: solid;
+}
+.profile img
+{
+    width: 30%;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+}
+.main
+{
+    display:flex;
+    margin-top: 20px;
+    width: 100%;
+}
+.main .sidebar
+{
+    width: 20%;
+    padding : 20px;
+    border-color: gray;
+    border-width:2px;
+    background-color: #c9eaec;
+}
+.main .content
+{
+    width: 60%;
+    padding : 20px;
+    border-color: rgb(37, 52, 61);
+    border-width:2px;
+    background-color: #ebe3a2;
+}
+.main .ads
+{
+    width: 20%;
+    padding : 20px;
+    border-color: gray;
+    border-width:2px;
+    background-color: #c9eaec;
+}
+.overflow
+{
+    display:flex;
+    margin-top: 20px;
+    width: 900px;
+    height: 150px;
+
+}
+.overflow .box1
+{
+    overflow: hidden;
+    width: 33%;
+}
+.overflow .box2
+{
+    overflow: scroll;
+    width: 34%;
+}
+.overflow .box3
+{
+    overflow: auto;
+    width: 33%;
+}
+.contact
+{
+    position:fixed;
+}
+.contact
+{
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+}
